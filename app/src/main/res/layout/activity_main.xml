@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="112dp"
+        android:text="時間      查詢"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="廠商/客戶 查詢"
+        app:layout_constraintEnd_toEndOf="@+id/but1"
+        app:layout_constraintStart_toStartOf="@+id/but1"
+        app:layout_constraintTop_toBottomOf="@+id/but1" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="產品/編號 查詢"
+        app:layout_constraintEnd_toEndOf="@+id/but2"
+        app:layout_constraintStart_toStartOf="@+id/but2"
+        app:layout_constraintTop_toBottomOf="@+id/but2" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="END"
+        app:layout_constraintEnd_toEndOf="@+id/but3"
+        app:layout_constraintStart_toStartOf="@+id/but3"
+        app:layout_constraintTop_toBottomOf="@+id/but3" />
+
+</android.support.constraint.ConstraintLayout>
